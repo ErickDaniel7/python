@@ -1,0 +1,229 @@
+IP,Resultado do Ping
+192.168.100.92,"
+Disparando 192.168.100.92 com 32 bytes de dados:
+Resposta de 192.168.100.92: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.92: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.92: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.92: bytes=32 tempo<1ms TTL=128
+
+Estat¡sticas do Ping para 192.168.100.92:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 0ms, M ximo = 0ms, M‚dia = 0ms
+"
+192.168.100.35,"
+Disparando 192.168.100.35 com 32 bytes de dados:
+Resposta de 192.168.100.35: bytes=32 tempo=3ms TTL=128
+Resposta de 192.168.100.35: bytes=32 tempo=2ms TTL=128
+Resposta de 192.168.100.35: bytes=32 tempo=6ms TTL=128
+Resposta de 192.168.100.35: bytes=32 tempo=7ms TTL=128
+
+Estat¡sticas do Ping para 192.168.100.35:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 2ms, M ximo = 7ms, M‚dia = 4ms
+"
+192.168.100.92,"
+Disparando 192.168.100.92 com 32 bytes de dados:
+Resposta de 192.168.100.92: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.92: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.92: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.92: bytes=32 tempo<1ms TTL=128
+
+Estat¡sticas do Ping para 192.168.100.92:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 0ms, M ximo = 0ms, M‚dia = 0ms
+"
+000.000.000.11,"
+Disparando 0.0.0.11 com 32 bytes de dados:
+PING: falha na transmissÆo. Falha geral. 
+PING: falha na transmissÆo. Falha geral. 
+PING: falha na transmissÆo. Falha geral. 
+PING: falha na transmissÆo. Falha geral. 
+
+Estat¡sticas do Ping para 0.0.0.11:
+    Pacotes: Enviados = 4, Recebidos = 0, Perdidos = 4 (100% de
+             perda),
+"
+192.168.100.35,"
+Disparando 192.168.100.35 com 32 bytes de dados:
+Resposta de 192.168.100.35: bytes=32 tempo=2ms TTL=128
+Resposta de 192.168.100.35: bytes=32 tempo=2ms TTL=128
+Resposta de 192.168.100.35: bytes=32 tempo=2ms TTL=128
+Resposta de 192.168.100.35: bytes=32 tempo=5ms TTL=128
+
+Estat¡sticas do Ping para 192.168.100.35:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 2ms, M ximo = 5ms, M‚dia = 2ms
+"
+192.168.100.210,"
+Disparando 192.168.100.210 com 32 bytes de dados:
+Resposta de 192.168.100.210: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.210: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.210: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.210: bytes=32 tempo=1ms TTL=128
+
+Estat¡sticas do Ping para 192.168.100.210:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 0ms, M ximo = 1ms, M‚dia = 0ms
+"
+000.000.000.11,"
+Disparando 0.0.0.11 com 32 bytes de dados:
+PING: falha na transmissÆo. Falha geral. 
+PING: falha na transmissÆo. Falha geral. 
+PING: falha na transmissÆo. Falha geral. 
+PING: falha na transmissÆo. Falha geral. 
+
+Estat¡sticas do Ping para 0.0.0.11:
+    Pacotes: Enviados = 4, Recebidos = 0, Perdidos = 4 (100% de
+             perda),
+"
+192.168.100.210,"
+Disparando 192.168.100.210 com 32 bytes de dados:
+Resposta de 192.168.100.210: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.210: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.210: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.210: bytes=32 tempo<1ms TTL=128
+
+Estat¡sticas do Ping para 192.168.100.210:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 0ms, M ximo = 0ms, M‚dia = 0ms
+"
+192.168.100.92,"
+Disparando 192.168.100.92 com 32 bytes de dados:
+Resposta de 192.168.100.92: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.92: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.92: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.92: bytes=32 tempo<1ms TTL=128
+
+Estat¡sticas do Ping para 192.168.100.92:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 0ms, M ximo = 0ms, M‚dia = 0ms
+"
+192.168.100.35,"
+Disparando 192.168.100.35 com 32 bytes de dados:
+Resposta de 192.168.100.35: bytes=32 tempo=2ms TTL=128
+Resposta de 192.168.100.35: bytes=32 tempo=3ms TTL=128
+Resposta de 192.168.100.35: bytes=32 tempo=2ms TTL=128
+Resposta de 192.168.100.35: bytes=32 tempo=2ms TTL=128
+
+Estat¡sticas do Ping para 192.168.100.35:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 2ms, M ximo = 3ms, M‚dia = 2ms
+"
+000.000.000.11,"
+Disparando 0.0.0.11 com 32 bytes de dados:
+PING: falha na transmissÆo. Falha geral. 
+PING: falha na transmissÆo. Falha geral. 
+PING: falha na transmissÆo. Falha geral. 
+PING: falha na transmissÆo. Falha geral. 
+
+Estat¡sticas do Ping para 0.0.0.11:
+    Pacotes: Enviados = 4, Recebidos = 0, Perdidos = 4 (100% de
+             perda),
+"
+192.168.100.210,"
+Disparando 192.168.100.210 com 32 bytes de dados:
+Resposta de 192.168.100.210: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.210: bytes=32 tempo=15ms TTL=128
+Resposta de 192.168.100.210: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.210: bytes=32 tempo<1ms TTL=128
+
+Estat¡sticas do Ping para 192.168.100.210:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 0ms, M ximo = 15ms, M‚dia = 3ms
+"
+192.168.100.210,"
+Disparando 192.168.100.210 com 32 bytes de dados:
+Resposta de 192.168.100.210: bytes=32 tempo=1ms TTL=128
+Resposta de 192.168.100.210: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.210: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.210: bytes=32 tempo<1ms TTL=128
+
+Estat¡sticas do Ping para 192.168.100.210:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 0ms, M ximo = 1ms, M‚dia = 0ms
+"
+192.168.100.240,"
+Disparando 192.168.100.240 com 32 bytes de dados:
+Resposta de 192.168.100.240: bytes=32 tempo=1ms TTL=128
+Resposta de 192.168.100.240: bytes=32 tempo=25ms TTL=128
+Resposta de 192.168.100.240: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.240: bytes=32 tempo<1ms TTL=128
+
+Estat¡sticas do Ping para 192.168.100.240:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 0ms, M ximo = 25ms, M‚dia = 6ms
+"
+192.168.100.210,"
+Disparando 192.168.100.210 com 32 bytes de dados:
+Resposta de 192.168.100.210: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.210: bytes=32 tempo=1ms TTL=128
+Resposta de 192.168.100.210: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.210: bytes=32 tempo=1ms TTL=128
+
+Estat¡sticas do Ping para 192.168.100.210:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 0ms, M ximo = 1ms, M‚dia = 0ms
+"
+192.168.100.240,"
+Disparando 192.168.100.240 com 32 bytes de dados:
+Resposta de 192.168.100.240: bytes=32 tempo=3ms TTL=128
+Resposta de 192.168.100.240: bytes=32 tempo=3ms TTL=128
+Resposta de 192.168.100.240: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.240: bytes=32 tempo<1ms TTL=128
+
+Estat¡sticas do Ping para 192.168.100.240:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 0ms, M ximo = 3ms, M‚dia = 1ms
+"
+192.168.100.210,"
+Disparando 192.168.100.210 com 32 bytes de dados:
+Resposta de 192.168.100.210: bytes=32 tempo=1ms TTL=128
+Resposta de 192.168.100.210: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.210: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.210: bytes=32 tempo<1ms TTL=128
+
+Estat¡sticas do Ping para 192.168.100.210:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 0ms, M ximo = 1ms, M‚dia = 0ms
+"
+192.168.100.240,"
+Disparando 192.168.100.240 com 32 bytes de dados:
+Resposta de 192.168.100.240: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.240: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.240: bytes=32 tempo<1ms TTL=128
+Resposta de 192.168.100.240: bytes=32 tempo<1ms TTL=128
+
+Estat¡sticas do Ping para 192.168.100.240:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 0ms, M ximo = 0ms, M‚dia = 0ms
+"
