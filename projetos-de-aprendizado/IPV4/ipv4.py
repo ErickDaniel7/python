@@ -9,10 +9,10 @@ class PrinterMapperApp:
         self.root = root
         self.root.title("Detecção de IPV4 do Adaptador Ethernet 2 e Mapeamento de Impressora")
         self.root.geometry("830x430")
-        self.root.configure(bg="#f0f0f0")  # Background color
+        self.root.configure(bg="#f0f0f0")
 
         self.style = ttk.Style(self.root)
-        self.style.theme_use("clam")  # Use a different theme for a modern look
+        self.style.theme_use("clam")
 
         self.style.configure("Title.TLabel", font=("Arial", 24, "bold"), foreground="#333", background="#f0f0f0")
         self.style.configure("Header.TLabel", font=("Arial", 18, "bold"), foreground="#007acc", background="#f0f0f0")
@@ -26,7 +26,7 @@ class PrinterMapperApp:
         self.frame = ttk.Frame(self.root, padding=20, style="Custom.TFrame")
         self.frame.pack(fill="both", expand=True)
 
-        ## Carregar as imagens com tamanho ajustado para ficarem pequenas
+        ## Carregar as imagens com tamanho ajustado
         self.left_image = tk.PhotoImage(file="F:/ipv4/IMG/mapeamento.png")
         self.left_image = self.left_image.subsample(6, 6)  # Reduzir ainda mais o tamanho
 
@@ -35,11 +35,11 @@ class PrinterMapperApp:
 
         # Adicionar os labels para exibir as imagens
         self.left_image_label = ttk.Label(self.frame, image=self.left_image, background=self.root.cget("bg"), compound="top")
-        self.left_image_label.pack(side="left", padx=5, pady=(250, 5))  # Ajuste o valor de pady para mover a imagem para baixo
+        self.left_image_label.pack(side="left", padx=5, pady=(250, 5))
 
         self.right_image_label = ttk.Label(self.frame, image=self.right_image, background=self.root.cget("bg"), compound="top")
-        self.right_image_label.pack(side="right", padx=10, pady=(250, 10))  # Ajuste o valor de pady para mover a imagem para baixo
-
+        self.right_image_label.pack(side="right", padx=10, pady=(250, 10))  
+        
         self.title_label = ttk.Label(self.frame, text="Detecção de Adaptador Ethernet 2", style="Title.TLabel")
         self.title_label.pack(pady=(0, 5))
 
