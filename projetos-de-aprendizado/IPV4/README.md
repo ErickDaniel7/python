@@ -5,7 +5,7 @@ Ele puxa apenas o Adaptador Ethernet Ethernet 2, que é usado quando a Sophos VP
 
 <br>
 
-Basicamente usa esses comandos de forma automatica:
+# Basicamente usa esses comandos de forma automatica:
 
 net use lpt2 /delete - Comando para desmapear impressora
 
