@@ -10,4 +10,4 @@ https://anonfiles.com/z1bemc2fz4/calculadoraImpressoes_rar
 
 <br>
 
-![Interface](https://github.com/ErickDaniel7/calculadora-impressoes-python/blob/main/IMG/calculadora.jpg) 
+![Interface](https://github.com/ErickDaniel7/python/blob/main/projetos-de-aprendizado/calculadora-impressoes-python/IMG/calculadora.jpg) 
