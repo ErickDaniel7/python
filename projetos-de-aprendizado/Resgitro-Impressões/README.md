@@ -5,13 +5,13 @@ Essa é uma interface básica em Python que permite registrar, visualizar, exclu
 <br>
 
 
-![Interface](https://github.com/ErickDaniel7/registro-impressoes-python/blob/main/IMG/interface.jpg) 
+![Interface](https://github.com/ErickDaniel7/python/blob/main/projetos-de-aprendizado/Resgitro-Impress%C3%B5es/IMG/interface.jpg) 
 
-![Visualizar Registros](https://github.com/ErickDaniel7/registro-impressoes-python/blob/main/IMG/visualizar-registro.jpg)
+![Visualizar Registros](https://github.com/ErickDaniel7/python/blob/main/projetos-de-aprendizado/Resgitro-Impress%C3%B5es/IMG/visualizar-registro.jpg)
 
-![Excluir Registros](https://github.com/ErickDaniel7/registro-impressoes-python/blob/main/IMG/excluir-registro.jpg) 
+![Excluir Registros](https://github.com/ErickDaniel7/python/blob/main/projetos-de-aprendizado/Resgitro-Impress%C3%B5es/IMG/excluir-registro.jpg) 
 
-![Editar Registros](https://github.com/ErickDaniel7/registro-impressoes-python/blob/main/IMG/editar-registro.jpg)
+![Editar Registros](https://github.com/ErickDaniel7/python/blob/main/projetos-de-aprendizado/Resgitro-Impress%C3%B5es/IMG/editar-registro.jpg)
 
-![Editando Registros](https://github.com/ErickDaniel7/registro-impressoes-python/blob/main/IMG/editando-registro.jpg) 
+![Editando Registros](https://github.com/ErickDaniel7/python/blob/main/projetos-de-aprendizado/Resgitro-Impress%C3%B5es/IMG/editando-registro.jpg) 
 
