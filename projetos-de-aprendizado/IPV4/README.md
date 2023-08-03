@@ -9,6 +9,8 @@ Basicamente usa esses comandos de forma automatica:
 
 net use lpt2 /delete - Comando para desmapear impressora
 
+<br>
+
 net use lpt2 \\192.168.100.98\ZD220 /persistent:yes - Comando para mapear impressora em porta LPT2, 
 
 IP FICTICO: 192.168.100.98 
