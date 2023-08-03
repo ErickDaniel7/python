@@ -1,6 +1,6 @@
 # Interface de Registro de Impressões em Python
 
-# Essa é uma interface básica em Python que permite registrar, visualizar, excluir e editar registros de impressões. Cada função realiza uma operação específica relacionada a essas ações.
+#### Essa é uma interface básica em Python que permite registrar, visualizar, excluir e editar registros de impressões. Cada função realiza uma operação específica relacionada a essas ações.
 
 <br>
 
