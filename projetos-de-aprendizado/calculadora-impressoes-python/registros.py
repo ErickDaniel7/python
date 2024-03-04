@@ -4,29 +4,29 @@ import openpyxl
 import os
 from tkinter import ttk
 
-#Author: Erick Daniel Teixeira Vier
+# Author: Erick Daniel Teixeira Vier
+
+from openpyxl.utils import FORMULAE
+from openpyxl.formula import Tokenizer
 
 def calcular_paginas(planilha):
-    wb = openpyxl.load_workbook(planilha)
+    wb = openpyxl.load_workbook(planilha, data_only=True)
     sheet = wb.active
 
     coluna_paginas = 'G'
     coluna_documentos = 'H'
     coluna_paginas_impressas = 'I'
 
-    documentos = sheet.max_row - 1
+    # Inicializa a contagem de documentos e de páginas
+    documentos = 0
     paginas = 0
 
-    for row in sheet.iter_rows(min_row=2, values_only=True):
-        paginas_impressas = row[sheet[f'{coluna_paginas_impressas}1'].column - 1]
-        if paginas_impressas:
-            paginas += paginas_impressas
-
-    sheet[f'{coluna_documentos}1'] = 'Documentos Impressos'
-    sheet[f'{coluna_documentos}2'] = f'=CONT.NÚM({coluna_paginas}2:{coluna_paginas}101)'
-    
-    sheet[f'{coluna_paginas_impressas}1'] = 'Página(s) Impressas'
-    sheet[f'{coluna_paginas_impressas}2'] = f'=SOMA({coluna_paginas}2:{coluna_paginas}102)'
+    # Itera sobre as linhas da planilha
+    for row in sheet.iter_rows(min_row=2, max_row=102, values_only=True):
+        if row[0] is not None:  # Verifica se a célula na primeira coluna não está vazia
+            documentos += 1
+            if row[sheet[f'{coluna_paginas_impressas}1'].column - 1] is not None:
+                paginas += row[sheet[f'{coluna_paginas_impressas}1'].column - 1]
 
     nome_planilha = os.path.basename(planilha)
     data = nome_planilha.split()[2].split(".")[0]
@@ -35,13 +35,16 @@ def calcular_paginas(planilha):
 def calcular_planilha():
     arquivo = filedialog.askopenfilename(filetypes=[('Planilhas Excel', '*.xlsx')])
     if arquivo:
-        documentos, paginas, nome_planilha, data = calcular_paginas(arquivo)
+        documentos, paginas, num_documentos_impressos, data = calcular_paginas(arquivo)
+        resultado_text.delete("1.0", tk.END)  # Limpar resultado anterior
         resultado_text.insert(tk.END, "Planilha selecionada: ")
-        resultado_text.insert(tk.END, nome_planilha + "\n", "bold")
+        resultado_text.insert(tk.END, os.path.basename(arquivo) + "\n", "bold")  # Corrigido aqui
         resultado_text.insert(tk.END, "Quantidade de documentos: ")
         resultado_text.insert(tk.END, str(documentos) + "\n", "bold")
         resultado_text.insert(tk.END, "Quantidade de páginas impressas: ")
         resultado_text.insert(tk.END, str(paginas) + "\n", "bold")
+        resultado_text.insert(tk.END, "Quantidade de documentos impressos: ")
+        resultado_text.insert(tk.END, str(num_documentos_impressos) + "\n", "bold")
         resultado_text.insert(tk.END, "\n")
 
 def calcular_planilhas():
@@ -51,23 +54,18 @@ def calcular_planilhas():
     total_documentos = 0
     total_paginas = 0
 
+    registros = []
+
     for arquivo in arquivos:
-        documentos, paginas, nome_planilha, data = calcular_paginas(arquivo)
-        resultado_text.insert(tk.END, "Planilha selecionada: ")
-        resultado_text.insert(tk.END, nome_planilha + "\n", "bold")
-        resultado_text.insert(tk.END, "Quantidade de documentos: ")
-        resultado_text.insert(tk.END, str(documentos) + "\n", "bold")
-        resultado_text.insert(tk.END, "Quantidade de páginas impressas: ")
-        resultado_text.insert(tk.END, str(paginas) + "\n", "bold")
-        resultado_text.insert(tk.END, "\n")
+        documentos, paginas, num_documentos_impressos, data = calcular_paginas(arquivo)
+        registros.append(f"Registro Impressão {data} - Documentos = {documentos} - Folhas = {paginas}\n")
         total_documentos += documentos
         total_paginas += paginas
 
-    resultado_text.insert(tk.END, "Quantidade total de documentos: ")
-    resultado_text.insert(tk.END, str(total_documentos) + "\n", "bold")
-    resultado_text.insert(tk.END, "Quantidade total de páginas impressas: ")
-    resultado_text.insert(tk.END, str(total_paginas) + "\n", "bold")
-    resultado_text.insert(tk.END, "\n")
+    resultado_text.delete("1.0", tk.END)  # Limpar resultado anterior
+    resultado_text.insert(tk.END, "".join(registros))
+    resultado_text.insert(tk.END, f"\nTotal Documentos Impressos = {total_documentos}\n")
+    resultado_text.insert(tk.END, f"Total Folhas Impressas = {total_paginas}\n\n")
 
 def salvar_arquivo():
     global total_documentos
@@ -75,8 +73,10 @@ def salvar_arquivo():
     nome_arquivo = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[('Arquivos de Texto', '*.txt')])
     if nome_arquivo:
         with open(nome_arquivo, 'w') as file:
-            file.write("Quantidade total de documentos: " + str(total_documentos) + "\n")
-            file.write("Quantidade total de páginas impressas: " + str(total_paginas) + "\n")
+            # Salvar conteúdo do resultado_text com espaçamento entre as linhas
+            linhas = resultado_text.get("1.0", tk.END).split('\n')
+            conteudo_formatado = '\n\n'.join(linhas)
+            file.write(conteudo_formatado)
         resultado_text.insert(tk.END, "Arquivo salvo com sucesso!\n\n", "bold")
 
 def limpar_resultado():
