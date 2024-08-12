@@ -4,4 +4,4 @@ Essa é uma interface básica usando tkinter em Python que permite calcular colu
 
 <br>
 
-![Interface](https://github.com/ErickDaniel7/python/blob/main/projetos-de-aprendizado/calculadora-impressoes-python/IMG/calculadora.jpg) 
+![Interface](https://github.com/ErickDaniel7/python/blob/main/projetos-de-aprendizado/calculadora-impressoes-python/IMG/calculadora.png) 
