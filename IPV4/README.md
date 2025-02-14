@@ -19,8 +19,8 @@ NOME IMPRESSORA FICTICIO: ZD220
 
 <br>
 
-![Interface](https://github.com/ErickDaniel7/python/blob/main/projetos-de-aprendizado/IPV4/IMG/Interface.jpg)
+![Interface](https://github.com/ErickDaniel7/python/blob/main/IPV4/IMG/Interface.jpg)
 
-![Sucesso](https://github.com/ErickDaniel7/python/blob/main/projetos-de-aprendizado/IPV4/IMG/Sucesso.jpg)
+![Sucesso](https://github.com/ErickDaniel7/python/blob/main/IPV4/IMG/Sucesso.jpg)
 
-![Erro](https://github.com/ErickDaniel7/python/blob/main/projetos-de-aprendizado/IPV4/IMG/Erro.jpg)
+![Erro](https://github.com/ErickDaniel7/python/blob/main/IPV4/IMG/Erro.jpg)
