@@ -5,8 +5,8 @@ Visualização JSON, e permite monitoramento que inicia o ping em todas as maqui
 
 <br>
 
-![Interface](https://github.com/ErickDaniel7/python/blob/main/projetos-de-aprendizado/IP's/IMG/Interface.jpg)
+![Interface](https://github.com/ErickDaniel7/python/blob/main/IP's/IMG/Interface.jpg)
 
-![Notificações erros](https://github.com/ErickDaniel7/python/blob/main/projetos-de-aprendizado/IP's/IMG/Erros.jpg)
+![Notificações erros](https://github.com/ErickDaniel7/python/blob/main/IP's/IMG/Erros.jpg)
 
-![Confirmações](https://github.com/ErickDaniel7/python/blob/main/projetos-de-aprendizado/IP's/IMG/Confirma%C3%A7%C3%B5es.jpg)
+![Confirmações](https://github.com/ErickDaniel7/python/blob/main/IP's/IMG/Confirma%C3%A7%C3%B5es.jpg)
